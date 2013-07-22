@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.4'
+ replicaid='00257B9B0018D13A'>
+<noteinfo noteid='37a' unid='F924C46C065D74B549257BA6000EE482' sequence='4'>
+<created><datetime>20130712T114240,02+09</datetime></created>
+<modified><datetime>20130712T114312,99+09</datetime></modified>
+<revised><datetime>20130712T114312,98+09</datetime></revised>
+<lastaccessed><datetime>20130712T114322,54+09</datetime></lastaccessed>
+<addedtofile><datetime>20130712T114240,03+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=APAC</name></updatedby>
+<wassignedby><name>CN=Administrator/O=APAC</name></wassignedby>
+<item name='$FormatNote' summary='true' sign='true'>
+<rawitemdata type='4'>
+AQAlR+u31NW7d3f+SwCheSVJ
+</rawitemdata></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>System\Speakers</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+yAAFAJwAlwAPAAsABAAHAAQABwAKAAgABwAIABQABwAIAAMACQAEAEVuZ2xpc2hOYW1lTmFtZUNv
+bXBhbnlEZXB0V2Vic2l0ZUdvb2dsZVBsdXNMaW5rZWRJblR3aXR0ZXJGYWNlYm9va1Byb2ZpbGVQ
+aG90b0ZpbGVuYW1lUHJvZmlsZUlCTUNoYW1wa2V5JENvbmZsaWN0JFJFRgAEAAQAAAAcAAUABABG
+b3JtAQAHAFNwZWFrZXIACgIDAAcACgAEAAlMMVM=
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+GAABAABEgGYAAAALAEVuZ2xpc2hOYW1l
+</rawitemdata></item>
+<item name='$Fonts' sign='true'><textlist><text>5</text><text>54</text><text
+>メイリオ</text><text>6</text><text>54</text><text>メイリオ</text><text>7</text><text
+>54</text><text>メイリオ</text><text>8</text><text>54</text><text>メイリオ</text><text
+>9</text><text>54</text><text>メイリオ</text><text>10</text><text>54</text><text
+>メイリオ</text><text>11</text><text>54</text><text>メイリオ</text><text>12</text><text
+>54</text><text>メイリオ</text><text>13</text><text>54</text><text>メイリオ</text><text
+>14</text><text>54</text><text>メイリオ</text><text>15</text><text>54</text><text
+>メイリオ</text><text>16</text><text>54</text><text>メイリオ</text><text>17</text><text
+>54</text><text>メイリオ</text><text>18</text><text>54</text><text>メイリオ</text><text
+>19</text><text>54</text><text>メイリオ</text><text>20</text><text>54</text><text
+>メイリオ</text><text>21</text><text>54</text><text>メイリオ</text><text>22</text><text
+>54</text><text>メイリオ</text><text>23</text><text>54</text><text>メイリオ</text><text
+>24</text><text>54</text><text>メイリオ</text><text>25</text><text>54</text><text
+>メイリオ</text><text>26</text><text>54</text><text>メイリオ</text><text>27</text><text
+>54</text><text>メイリオ</text><text>28</text><text>54</text><text>メイリオ</text><text
+>29</text><text>54</text><text>メイリオ</text><text>30</text><text>54</text><text
+>メイリオ</text></textlist></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$ViewFormat' sign='true'>
+<rawitemdata type='5'>
+AQANAA8ACAAAAFZDAQALAAwAAAAAAFsABQAACgAAAAAAAAAAAAICAAAAVkMAAAQABAAAAAAASAAG
+AAAJAAAAAAAAAAAAAgIAAABWQwAABwAHAAAAAACMAAcAAAkAAAAAAAAAAAACAgAAAFZDAAAEAA0A
+AAAAAHwACAAACQAAAAAAAAAAAAICAAAAVkMAAAcABwAAAAAAUgAJAAAKAAAAAAAAAAAAAgIAAABW
+QwAACgAHAAAAAABQAAoAAAoAAAAAAAAAAAACAgAAAFZDAAAIAAgAAAAAAFAACwAACgAAAAAAAAAA
+AAICAAAAVkMAAAcABwAAAAAAUAAMAAAKAAAAAAAAAAAAAgIAAABWQwAACAAIAAAAAABQAA0AAAoA
+AAAAAAAAAAACAgAAAFZDAAAUAA0AAAAAAFAADgAACgAAAAAAAAAAAAICAAAAVkMAAAcABwAAAAAA
+UAAPAAAKAAAAAAAAAAAAAgIAAABWQwAACAAIAAAAAABQABAAAAoAAAAAAAAAAAACAgAAAFZDAAAD
+AAAAAAAAAFAAEQAACgAAAAAAAAAAAAICAAAARW5nbGlzaE5hbWVFbmdsaXNoIE5hbWVOYW1lTmFt
+ZUNvbXBhbnlDb21wYW55RGVwdERlcHQgSm9iIFJvbGVXZWJzaXRlV2Vic2l0ZUdvb2dsZVBsdXNH
+b29nbGUrTGlua2VkSW5MaW5rZWRJblR3aXR0ZXJ0d2l0dGVyRmFjZWJvb2tmYWNlYm9va1Byb2Zp
+bGVQaG90b0ZpbGVuYW1lUHJvZmlsZSBQaG90b1Byb2ZpbGVQcm9maWxlSUJNQ2hhbXBJQk1DaGFt
+cGtleSYAAQAAAAEBAAkBAAAKAQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MSAQAJAAAAAAAAAAAA
+AAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDEwEACQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAP//AAAAAAAAAAAAAAAAAABXQxQBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAA
+AAAAAAAAAAAAV0MVAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdD
+FgEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQxcBAAkAAAAAAAAA
+AAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MYAQAJAAAAAAAAAAAAAAAAAAAAAAAA
+BAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDGQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAA
+AAAAAAAAAAAAAABXQxoBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAA
+V0MbAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDHAEACQAAAAAA
+AAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQx0BAAkAAAAAAAAAAAAAAAAAAAAA
+AAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MeAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8A
+AAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8A
+AAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwRAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABAOzp2AABAAAAAAAJAAAAAAABAOzp2AAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/04AAAABAAAAnwEAAAsAAAABAAAATmV3IENvbnRlbnQL
+LAAAAB4AAgDoAwAAAAAAAAEABwBTcGVha2VyAO0CAwAHAAwABQAJMFMwRQA=
+</rawitemdata></item></note>
+

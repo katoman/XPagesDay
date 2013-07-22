@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.4" replicaid="00257B9B0018D13A" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ea" sequence="5" unid="B24FE89F08564F9249257B8F00271F0C">
+<created><datetime>20130619T160718,52+09</datetime></created>
+<modified><datetime>20130701T134134,79+09</datetime></modified>
+<revised><datetime>20130701T132900,12+09</datetime></revised>
+<lastaccessed><datetime>20130701T134134,79+09</datetime></lastaccessed>
+<addedtofile><datetime>20130701T134134,79+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=XPagesChannel</name><name>CN=Administrator/O=APAC</name></updatedby>
+<wassignedby><name>CN=Administrator/O=APAC</name></wassignedby>
+<item name="$TITLE"><text>bootstrap.min.css</text></item>
+<item name="$Flags"><text>34C=Q</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$FileModDT" sign="true"><datetime>20130619T153653,69+09</datetime></item>
+<item name="$MimeCharSet"><text>Shift_JIS</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>bootstrap.min.css</text></item></note>

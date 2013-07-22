@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+
+	<xp:this.resources>
+
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+
+
+	</xp:this.resources>
+
+
+	<xc:navigator_top pageName="home"></xc:navigator_top>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>Welcome to XPagesDay</h1>
+		</div>
+		<div class="row">
+
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li>
+						<a href="#header1">
+							<i class="icon-chevron-right"></i>
+							Header1
+						</a>
+					</li>
+					<li>
+						<a href="#header2">
+							<i class="icon-chevron-right"></i>
+							Header2
+						</a>
+					</li>
+					<li>
+						<a href="#header3">
+							<i class="icon-chevron-right"></i>
+							Header3
+						</a>
+					</li>
+					<li>
+						<a href="#header4">
+							<i class="icon-chevron-right"></i>
+							Header4
+						</a>
+					</li>
+					<li>
+						<a href="#header5">
+							<i class="icon-chevron-right"></i>
+							Header5
+						</a>
+					</li>
+				</ul>
+			</div><!-- /span3 bs-docs-sidebar -->
+			<div class="span9">
+				<xc:speakerthumnails></xc:speakerthumnails>
+			</div>
+		</div>
+	</div>
+</xp:view>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.4" replicaid="00257B9B0018D13A" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1e6" sequence="2" unid="8513DDC2F1C1EB3C49257B9B000B01D2">
+<created><datetime>20130701T110013,62+09</datetime></created>
+<modified><datetime>20130701T134134,77+09</datetime></modified>
+<revised><datetime>20130701T132900,64+09</datetime></revised>
+<lastaccessed><datetime>20130701T134134,77+09</datetime></lastaccessed>
+<addedtofile><datetime>20130701T134134,77+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=XPagesChannel</name><name>CN=Administrator/O=APAC</name></updatedby>
+<wassignedby><name>CN=Administrator/O=APAC</name></wassignedby>
+<item name="$TITLE"><text>teamstudio_logo.jpg</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+
+
+
+
+<item name="$MimeType" sign="true"><text>image/jpeg</text></item>
+<item name="$FileModDT" sign="true"><datetime>20130701T105841,00+09</datetime></item>
+<item name="$ImageNames" sign="true"><text>teamstudio_logo.jpg</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

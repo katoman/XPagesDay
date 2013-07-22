@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	pageTitle="XPagesDay - スポンサー">
+	<xp:this.data>
+		<xp:dominoView var="view1" viewName="vw_sponsors"></xp:dominoView>
+	</xp:this.data>
+
+	<xp:this.resources>
+		<xp:metaData name="charset" content="utf-8" />
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+	</xp:this.resources>
+
+	<xc:navigator_top pageName="sponsors"></xc:navigator_top>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>スポンサー</h1>
+		</div>
+		<div class="row">
+
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<xp:repeat rows="30" value="#{view1}"
+						var="viewEntry">
+						<li>
+							<xp:text escape="false"
+								disableTheme="true">
+								<xp:this.value><![CDATA[#{javascript:"<a href=" +
+"\"\#" +
+viewEntry.getColumnValue("SectionID") +
+"\"" +
+">" +
+"<i class=" +
+"\"icon-chevron-right" +
+"\"></i>" +
+viewEntry.getColumnValue("SectionTitle") +
+"</a>"}]]></xp:this.value>
+							</xp:text>
+						</li>
+					</xp:repeat>
+				</ul>
+			</div><!-- /span3 bs-docs-sidebar -->
+
+
+
+			<div class="span9">
+				<xp:repeat rows="30" value="#{view1}" var="viewEntry">
+					<xp:text escape="false">
+
+						<xp:this.value><![CDATA[#{javascript:"<section id=" +
+"\"" +
+viewEntry.getColumnValue("SectionID") +
+"\"><div class=" +
+"\"page-header" +
+"\">" +
+"<h1>" +
+viewEntry.getColumnValue("SectionTitle") +
+"</h1></div>" +
+viewEntry.getColumnValue("Content")
+}]]></xp:this.value>
+					</xp:text>
+				</xp:repeat>
+			</div>
+		</div>
+	</div>
+</xp:view>

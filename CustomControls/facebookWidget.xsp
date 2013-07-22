@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<center>
+		<p>
+			<br />
+			<xp:link escape="true" text="XPagesDay on Facebook" id="link1"
+				value="http://www.facebook.com/pages/XPagesDay/331074016938671">
+			</xp:link>
+			<iframe
+				src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FXPagesDay%2F331074016938671&amp;width=292&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true"
+				scrolling="no" frameborder="0"
+				style="border:none; overflow:hidden; width:292px; height:590px;"
+				allowTransparency="true"></iframe>
+		</p>
+	</center>
+</xp:view>

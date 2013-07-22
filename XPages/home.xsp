@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	pageTitle="XPagesDay - Home">
+
+	<xp:this.resources>
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<xp:script src="/xpMain.jss" clientSide="false" />
+	</xp:this.resources>
+
+	<xc:navigator_top pageName="home"></xc:navigator_top>
+	<xc:carousel></xc:carousel>
+	<div class="container-fluid">
+		
+		<div class="row">
+			<xp:panel id="panelContent" styleClass="span7 offset1">
+				<xp:this.data>
+					<xp:dominoDocument var="document1"
+						formName="Content" action="openDocument">
+						<xp:this.documentId><![CDATA[#{javascript:getDocID2("home")}]]></xp:this.documentId>
+					</xp:dominoDocument>
+				</xp:this.data>
+				<xp:text escape="false" id="cfContent"
+					value="#{document1.Content}">
+				</xp:text>
+
+			</xp:panel>
+			<div class="span4">
+				<xc:twitterWidget></xc:twitterWidget>
+				<xc:facebookWidget></xc:facebookWidget>
+			</div>
+		</div>
+	</div>
+</xp:view>

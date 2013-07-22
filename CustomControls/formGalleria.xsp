@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.data>
+		<xp:dominoDocument var="imageDoc" formName="imageHolder"></xp:dominoDocument>
+		<xp:dominoView var="imagesView" viewName="images"></xp:dominoView>
+	</xp:this.data>
+		<script src="js/galleria-1.2.8.min.js"></script>
+		
+		<style> 
+			#galleria{ width: 700px; height: 400px; background: #000 } 
+		</style>
+        <script>
+            if (Galleria) { alert('yws' }
+        </script>
+
+		<script>
+		    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+		    Galleria.configure({
+			    transition: 'fade',
+			     lightbox: true,
+			     showCounter: true,
+			     showInfo: true,
+			     showImageNav: true, 
+			     imagePan: true,
+			    imageCrop: true
+			});
+		    Galleria.run('#galleria');
+		</script>
+		
+	<div id="galleria">
+		<xp:repeat id="repeat1" rows="30" value="#{imagesView}" var="imageRepeat">
+		<xp:text escape="true" id="computedField1" tagName="IMG">
+			<xp:this.attrs>
+				<xp:attr name="src" value="#{imageRepeat.imagePath}"></xp:attr>
+				<xp:attr name="data-title" value="#{imageRepeat.imageDescription}"></xp:attr>
+			</xp:this.attrs>
+		</xp:text>
+		</xp:repeat>
+	</div>
+</xp:view>

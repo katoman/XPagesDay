@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<center>
+		<div class="alert">
+			<button type="button" class="close" data-dismiss="alert">&#215;
+			</button>
+			<strong>XPagesDay では</strong><br />
+			<strong>セッション講師を募集中です！</strong><br />
+			<strong>詳しくは</strong>
+			<br />
+			<xp:button id="button1" disableTheme="true"
+				value="Call for Abstract へ">
+				<xp:this.attrs>
+					<xp:attr name="class" value="btn btn-primary"></xp:attr>
+				</xp:this.attrs>
+			<xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage name="/call4abstract.xsp"></xp:openPage>
+				</xp:this.action></xp:eventHandler></xp:button>
+				<br />
+		</div>
+		<a href="https://twitter.com/XPagesDay" class="twitter-follow-button"
+			data-show-count="false" data-lang="ja">@XPagesDayをフォロー</a>
+		<script>!function(d,s,id){var
+			js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+		<br />
+		<br />
+		イベントハッシュタグは #XPagesDay
+		<br />
+		<br />
+		<a class="twitter-timeline" href="https://twitter.com/search?q=xpagesday"
+			data-widget-id="350802828085837825">xpagesday に関するツイート</a>
+		<script>!function(d,s,id){var
+			js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+
+	</center>
+</xp:view>

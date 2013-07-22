@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="./home.xsp">XPagesDay</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<!-- HOME -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="home"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./home.xsp\">ホーム</a>"}]]></xp:this.value>
+						</xp:text>
+						
+<!-- EventOverview -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="eventoverview"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./eventoverview.xsp\">開催概要</a>"}]]></xp:this.value>
+						</xp:text>
+
+						<!-- Call for Abstract -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="call4abstract"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./call4abstract.xsp\">Call for Abstract</a>"}]]></xp:this.value>
+						</xp:text>
+
+						<!-- セッション講師 -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="speakers"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./speakers.xsp\">セッション講師</a>"}]]></xp:this.value>
+						</xp:text>
+
+
+						<!-- News -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="news"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./news.xsp\">ニュース</a>"}]]></xp:this.value>
+						</xp:text>
+						<!-- Sponsors -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="sponsors"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./sponsors.xsp\">スポンサー</a>"}]]></xp:this.value>
+						</xp:text>
+
+						<!-- Contact -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="contact"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./contact.xsp\">お問い合わせ</a>"}]]></xp:this.value>
+						</xp:text>
+
+<!-- Playback -->
+						<xp:text tagName="li" escape="false" disableTheme="true">
+							<xp:this.attrs>
+								<xp:attr name="class">
+									<xp:this.value><![CDATA[#{javascript:var val = "";
+if(compositeData.pageName=="playback"){
+val = "active";
+}
+return val;
+}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:this.value><![CDATA[#{javascript:"<a href=\"\./playback.xsp\">XPagesDay 2012 プレイバック</a>"}]]></xp:this.value>
+						</xp:text>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</xp:view>

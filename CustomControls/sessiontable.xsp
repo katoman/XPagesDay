@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.data>
+		<xp:dominoView var="view1">
+			<xp:this.viewName><![CDATA[#{javascript:if(compositeData.targetDay=="Day1"){
+	return "vw_day1";
+} else if(compositeData.targetDay=="Day2"){
+	return "vw_day2";
+} else if(compositeData.targetDay=="Day3"){
+	return "vw_day3";
+	}else{
+	return "vw_party";
+}
+
+	}]]></xp:this.viewName>
+		</xp:dominoView>
+	</xp:this.data>
+
+	<table class="table">
+		<xp:repeat rows="30" var="viewEntry" value="#{view1}">
+
+			<tr>
+				<td width="10%">
+					<i class="icon-time" />
+					<xp:text escape="false" tagName="span"
+						disableTheme="true" styleClass="label label-info">
+						<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("StartTime")}]]></xp:this.value>
+					</xp:text>
+					<br />
+					<i class="icon-eye-open" />
+					<xp:text disableTheme="true" tagName="span"
+						escape="false">
+						<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Method")}]]></xp:this.value>
+						<xp:this.styleClass><![CDATA[#{javascript:var val = "label";
+if(viewEntry.getColumnValue("Method")=="会場"){
+	val += " label-inverse";
+	};
+	return val;}]]></xp:this.styleClass>
+					</xp:text>
+				</td>
+				<td width="80%">
+					<h4>
+						<xp:text escape="false" disableTheme="true">
+							<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Title")}]]></xp:this.value>
+						</xp:text>
+					</h4>
+					<p>
+						<xp:text escape="false">
+							<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Overview")}]]></xp:this.value>
+						</xp:text>
+					</p>
+					<p>
+						<i class="icon-bullhorn" />&#160;<xp:text escape="false" disableTheme="true">
+							<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Speaker")}]]></xp:this.value>
+						</xp:text>
+					</p>
+					<p>
+					<xp:link escape="true" text="このセッションを申し込む"
+						disableTheme="true" styleClass="btn btn-large btn-primary"
+						target="_blank">
+						<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("url")}]]></xp:this.value>
+						<xp:this.rendered><![CDATA[#{javascript:if(viewEntry.getColumnValue("url")!=""){
+	return true;
+	}else{
+	return false;
+	}
+}]]></xp:this.rendered>
+					</xp:link>
+					</p>
+				</td>
+				<td width="10%">
+					<xp:text escape="false" tagName="span"
+						disableTheme="true">
+						<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Type")}]]></xp:this.value>
+						<xp:this.styleClass><![CDATA[#{javascript:var val = "label";
+var st = viewEntry.getColumnValue("Type");
+if(st=="すべて"){
+	val += " label-inverse";
+	} else if(st=="提案事例"){
+		val +=" label-success";
+		}else if(st=="導入活用事例"){
+			val +=" label-warning";
+			}else if(st=="中上級"){
+				val +=" label-important";
+				}else if(st=="初心者"){
+					val +=" label-info";
+					}
+					return val;
+		
+		}]]></xp:this.styleClass>
+					</xp:text>
+				</td>
+
+
+			</tr>
+		</xp:repeat>
+	</table>
+</xp:view>

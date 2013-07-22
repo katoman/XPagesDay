@@ -1,0 +1,28 @@
+
+<theme extends="webstandard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+	<resource>
+		<content-type>application/x-javascript</content-type>
+		<href>js/jquery.js</href>
+	</resource>
+	<resource>
+		<content-type>application/x-javascript</content-type>
+		<href>js/bootstrap.min.js</href>
+	</resource>
+	<resource>
+		<content-type>text/css</content-type>
+		<href>bootstrap.min.css</href>
+	</resource>
+	<resource>
+		<content-type>text/css</content-type>
+		<href>bootstrap-responsive.min.css</href>
+	</resource>
+	<resource>
+		<content-type>text/css</content-type>
+		<href>docs.css</href>
+	</resource>
+	<resource>
+		<content-type>text/css</content-type>
+		<href>custom.css</href>
+	</resource>
+</theme>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+ <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="xpages.jpg" alt="" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to XPagesDay</h1>
+              <p class="lead">あの XPagesDay が今年もやってくる。「コミュニティによるコミュニティのためのイベント」をコンセプトに、XPages に関する全てを集約して開催します。</p>
+<!--              <a class="btn btn-large btn-primary" href="#">Sign up today</a>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="speaker.jpg" alt="" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>セッション講師募集</h1>
+              <p class="lead">みんなあなたを待っています。あなたの話が聞きたいと願っているはずです。あなたの貴重な体験をコミュニティと共有しましょう。きっとあなたはヒーローになるはず！</p>
+              <a class="btn btn-large btn-primary" href="call4abstract.xsp">Call for Abstract</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="sponsor.jpg" alt="" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>スポンサー募集</h1>
+              <p class="lead">XPagesDay ではイベントにご賛同、ご協力いただける企業／団体を募集しています。 </p>
+              <a class="btn btn-large btn-primary" href="sponsors.xsp">スポンサーになる</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&#8249;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&#8250;</a>
+    </div><!-- /.carousel -->
+
+
+</xp:view>

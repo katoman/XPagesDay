@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom"
+	pageTitle="XPagesDay - セッション">
+	<xp:this.resources>
+		<xp:metaData name="charset" content="utf-8" />
+		<xp:metaData name="viewport" content="width=device-width, initial-scale=1.0" />
+	</xp:this.resources>
+
+	<xc:navigator_top pageName="sessions"></xc:navigator_top>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>セッション</h1>
+		</div>
+		<div class="row">
+
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li>
+						<a href="#day1">
+							<i class="icon-chevron-right" />
+							11 月 6 日 (水)
+						</a>
+					</li>
+					<li>
+						<a href="#day2">
+							<i class="icon-chevron-right" />
+							11 月 7 日 (木)
+						</a>
+					</li>
+					<li>
+						<a href="#day3">
+							<i class="icon-chevron-right" />
+							11 月 8 日 (金)
+						</a>
+					</li>
+					<li>
+						<a href="#party">
+							<i class="icon-chevron-right" />
+							The Party X (懇親会) 11 月 8 日(金)
+						</a>
+					</li>
+				</ul>
+			</div><!-- /span3 bs-docs-sidebar -->
+
+
+			<div class="span9">
+				<section id="day1">
+					<div class="page-header">
+						<h2>11 月 6 日 (水)</h2>
+						<xc:sessiontable targetDay="Day1"></xc:sessiontable>
+					</div>
+				</section>
+				<section id="day2">
+					<div class="page-header">
+						<h2>11 月 7 日 (木)</h2>
+						<xc:sessiontable targetDay="Day2"></xc:sessiontable>
+					</div>
+				</section>
+				<section id="day3">
+					<div class="page-header">
+						<h2>11 月 8 日 (金)</h2>
+						<xc:sessiontable targetDay="Day3"></xc:sessiontable>
+					</div>
+				</section>
+				<section id="party">
+					<div class="page-header">
+						<h2>The Party X (懇親会) 11 月 8 日(金)</h2>
+						<xc:sessiontable targetDay="party"></xc:sessiontable>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</xp:view>

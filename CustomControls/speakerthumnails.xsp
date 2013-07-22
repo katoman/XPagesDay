@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.data>
+		<xp:dominoView var="view1" viewName="vw_speakers"></xp:dominoView>
+	</xp:this.data>
+
+	<ul class="thumbnails">
+
+		<xp:repeat rows="30" value="#{view1}" var="viewEntry">
+			<li class="span3">
+				<div class="thumbnail" style="height:400px;">
+					<xp:image disableTheme="true" styleClass="img-circle">
+						<xp:this.url><![CDATA[#{javascript:"/0/" + viewEntry.getDocument().getUniversalID() + "/$FILE/" + viewEntry.getColumnValue("ProfilePhotoFilename")}]]></xp:this.url>
+						<xp:this.rendered><![CDATA[#{javascript:var filename = viewEntry.getColumnValue("ProfilePhotoFilename");
+if (filename !== "") {
+	return true;
+} else {
+	return false;
+}}]]></xp:this.rendered>
+						<xp:this.attrs>
+							<xp:attr name="data-src" value="holder.js/140x140">
+							</xp:attr>
+						</xp:this.attrs>
+					</xp:image>
+
+
+					<div class="caption">
+						<center>
+							<h4>
+								<xp:text escape="true" disableTheme="true">
+									<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Name")}]]></xp:this.value>
+								</xp:text>
+							</h4>
+							<p>
+								<xp:image url="/IBM+Champion+graphic.png" id="image1"
+									styleClass="ibmchamplogo" style="width:50%; height:50%;">
+									<xp:this.rendered><![CDATA[#{javascript:var ibmchamp = viewEntry.getColumnValue("IBMChamp");
+if (ibmchamp == "Yes") {
+	return true;
+	} else {
+	return false;
+}}]]></xp:this.rendered>
+								</xp:image>
+							</p>
+							<p>
+								<h5>
+									<xp:text escape="true" disableTheme="true">
+										<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Company")}]]></xp:this.value>
+									</xp:text>
+								</h5>
+							</p>
+						</center>
+						<p>
+							<xp:text escape="false" disableTheme="true">
+								<xp:this.value><![CDATA[#{javascript:viewEntry.getColumnValue("Profile")}]]></xp:this.value>
+							</xp:text>
+						</p>
+					</div>
+				</div>
+			</li>
+		</xp:repeat>
+	</ul>
+</xp:view>

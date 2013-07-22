@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	pageTitle="XPagesDay - セッション講師">
+
+	<xp:this.resources>
+		<xp:metaData name="charset" content="utf-8" />
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+	</xp:this.resources>
+
+	<xc:navigator_top pageName="speakers"></xc:navigator_top>
+	<div class="container-fluid">
+		<div class="page-header">
+			<h1>セッション講師</h1>
+			<p>確定次第順次公開します</p>
+		</div>
+		<div class="row">
+
+			<div class="span3"></div>
+			<div class="span9">
+				<xc:speakerthumnails></xc:speakerthumnails>
+			</div>
+		</div>
+	</div>
+</xp:view>
